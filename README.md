@@ -12,12 +12,14 @@
       - String nome;
       - LocalDate dataNascimento;
       - String endereco;
-      - int numeroModulo;
-      - int xp;
+- Aluno 
+  - Atributos:
+    - int numeroModulo;
+    - int xp;
   - Metódos
-      - imprimeInformacoes(Pessoa aluno);
-      - avancaModulo(Pessoa aluno);
-      - calculaXP(Pessoa aluno, Modulo modulo);
+    - imprimeInformacoes(Pessoa aluno);
+    - avancaModulo(Pessoa aluno);
+    - calculaXP(Pessoa aluno, Modulo modulo);
 - Modulo
   - Atributos:
     - String nome;
